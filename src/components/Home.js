@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { Button } from 'react-bootstrap';
-function Home() {
+function Home(props) {
+    console.log("Home", props);
     return (
         <Fragment>
             <div className="container mt-5 mb-5">
@@ -20,7 +21,7 @@ function Home() {
                                 <li className="list-group-item">20 Left Only</li>
                             </ul>
                             <div className="card-body">
-                                <Button className="btn-info btn-sm">Add Cart</Button>
+                                <Button className="btn-info btn-sm" onClick={() => props.addToCartHandler({ price: 1000, name: "iphone 11" })}>Add Cart</Button>
                             </div>
                         </div>
                     </div>
