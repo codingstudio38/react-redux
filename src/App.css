@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.cartspan{
+  color: white;
+  background-color: rgb(54, 90, 78);
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 25px;
+  text-align: center;
+  line-height: 1.2;
+  float: right;
+  margin-left: -20px;
+  margin-top: -10px;
+  position: relative;
+}
