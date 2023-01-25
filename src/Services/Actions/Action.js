@@ -11,4 +11,4 @@ export const removeToCart = () => {
     return {
         type: REMOVE_TO_CART,
     }
-}
+} 

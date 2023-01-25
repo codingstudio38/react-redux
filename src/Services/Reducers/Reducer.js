@@ -21,5 +21,5 @@ export default function cardItems(state = [], action) {
             break;
         default:
             return state
-    }
+    } 
 }
